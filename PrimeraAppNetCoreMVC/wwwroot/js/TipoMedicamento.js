@@ -2,6 +2,7 @@
     listarTipoMedicamento();
 }
 
+const modalTipoMedicamento = new bootstrap.Modal(get("modalTipoMedicamento"), {})
 const idTipoMedicamentoInput = document.getElementById("idTipoMedicamento");
 const guardarBtn = document.getElementById("buttonGuardar");
 
@@ -37,17 +38,22 @@ async function limpiarControl() {
     await filtrarMedicamento("");
 }
 
-function guardarTipoMedicamento() {
+async function guardarTipoMedicamento() {
     const frmGuardar = new FormData(document.getElementById("formGuardarTipoMedicamento"));
     const callback = (res) => {
         const resInt = parseInt(res);
         if (resInt == 1) {
             listarTipoMedicamento();
             limpiarTipoMedicamento();
+            ExitoToast("Registro guardado con éxito");
+        } else {
+            ErrorToast();
         }
     }
 
     if (idTipoMedicamentoInput.value != "") {
+        if (!await Confirmacion()) return;
+        modalTipoMedicamento.hide();
         fetchPut("TipoMedicamento/GuardarTipoMedicamento", "text", frmGuardar, callback);
     } else {
         fetchPost("TipoMedicamento/GuardarTipoMedicamento", "text", frmGuardar, callback);
@@ -59,18 +65,27 @@ function limpiarTipoMedicamento() {
     guardarBtn.innerText = "Guardar";
 }
 
-function Editar(id) {
-    guardarBtn.innerText = "Actualizar";
-    recuperarGenerico("TipoMedicamento/RecuperarTipoMedicamento/?idTipoMedicamento=" + id, "formGuardarTipoMedicamento");
+function nuevoTipoMedicamento() {
+    limpiarTipoMedicamento();
+    modalTipoMedicamento.show();
 }
 
-function Eliminar(id) {
-    const deleteAns = confirm("¿De verdad quiere eliminar este registro?");
-    if (!deleteAns) return;
+async function Editar(id) {
+    guardarBtn.innerText = "Actualizar";
+    recuperarGenerico("TipoMedicamento/RecuperarTipoMedicamento/?idTipoMedicamento=" + id, "formGuardarTipoMedicamento");
+    modalTipoMedicamento.show();
+}
+
+async function Eliminar(id) {
+    if (!await Confirmacion()) return;
+    modalTipoMedicamento.hide();
 
     fetchDelete("TipoMedicamento/EliminarTipoMedicamento/?idTipoMedicamento=" + id, "text", (res) => {
         if (parseInt(res) == 1) {
             listarTipoMedicamento();
+            ExitoToast("Registro eliminado con éxito");
+        } else {
+            ErrorToast();
         }
     });
 }

@@ -2,34 +2,48 @@
     ViewData["Title"] = "Index";
 }
 
-<h2>Guardar Tipo Medicamento</h2>
-<form class="row g-3" id="formGuardarTipoMedicamento">
-    <div class="col-md-6">
-        <label for="idTipoMedicamento" class="form-label">Id Tipo Medicamento</label>
-        <input type="text" name="idTipoMedicamento" class="form-control" id="idTipoMedicamento" readonly value="">
-    </div>
-    <div class="col-md-6">
-        <label for="nombre" class="form-label">Nombre</label>
-        <input type="text" name="nombre" class="form-control" id="nombre" value="">
-    </div>
-    <div class="col-md-6">
-        <label for="descripcion" class="form-label">Descripción</label>
-        <input type="text" name="descripcion" class="form-control" id="descripcion" value="">
-    </div>
-    <div class="col-md-3">
-        <button class="btn btn-outline-secondary" type="button" onclick="guardarTipoMedicamento()" id="buttonGuardar">Guardar</button>
-        <button class="btn btn-outline-info" type="button" onclick="limpiarTipoMedicamento()">Limpiar</button>
-    </div>
-</form>
 <div id="divtablaBusqueda">
 </div>
 
 <hr />
 
 <h1>Tipo Medicamento</h1>
+<button class="btn btn-primary" type="button" onclick="nuevoTipoMedicamento()">Nuevo Tipo Medicamento</button>
 
 <div id="divtabla">
 
+</div>
+
+<div class="modal" tabindex="-1" id="modalTipoMedicamento">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Tipo Medicamento</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="row g-3" id="formGuardarTipoMedicamento">
+                    <div class="col-md-6">
+                        <label for="idTipoMedicamento" class="form-label">Id Tipo Medicamento</label>
+                        <input type="text" name="idTipoMedicamento" class="form-control" id="idTipoMedicamento" readonly value="">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" name="nombre" class="form-control" id="nombre" value="">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="descripcion" class="form-label">Descripción</label>
+                        <input type="text" name="descripcion" class="form-control" id="descripcion" value="">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-outline-secondary" type="button" onclick="guardarTipoMedicamento()" id="buttonGuardar">Guardar</button>
+                <button class="btn btn-outline-info" type="button" onclick="limpiarTipoMedicamento()">Limpiar</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script src="~/js/generic.js"></script>
