@@ -1,0 +1,55 @@
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\3P\capaEntidad\bin\Debug\net8.0\capaEntidad.deps.json
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\3P\capaEntidad\bin\Debug\net8.0\capaEntidad.dll
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\3P\capaEntidad\bin\Debug\net8.0\capaEntidad.pdb
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\3P\capaEntidad\obj\Debug\net8.0\capaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\3P\capaEntidad\obj\Debug\net8.0\capaEntidad.AssemblyInfoInputs.cache
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\3P\capaEntidad\obj\Debug\net8.0\capaEntidad.AssemblyInfo.cs
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\3P\capaEntidad\obj\Debug\net8.0\capaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\3P\capaEntidad\obj\Debug\net8.0\capaEntidad.dll
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\3P\capaEntidad\obj\Debug\net8.0\refint\capaEntidad.dll
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\3P\capaEntidad\obj\Debug\net8.0\capaEntidad.pdb
+C:\Users\YALEDAPC\4to semestre\ProgramacionWeb\3P\capaEntidad\obj\Debug\net8.0\ref\capaEntidad.dll
+C:\Users\kmd\Documents\3P\capaEntidad\bin\Debug\net8.0\capaEntidad.deps.json
+C:\Users\kmd\Documents\3P\capaEntidad\bin\Debug\net8.0\capaEntidad.dll
+C:\Users\kmd\Documents\3P\capaEntidad\bin\Debug\net8.0\capaEntidad.pdb
+C:\Users\kmd\Documents\3P\capaEntidad\obj\Debug\net8.0\capaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kmd\Documents\3P\capaEntidad\obj\Debug\net8.0\capaEntidad.AssemblyInfoInputs.cache
+C:\Users\kmd\Documents\3P\capaEntidad\obj\Debug\net8.0\capaEntidad.AssemblyInfo.cs
+C:\Users\kmd\Documents\3P\capaEntidad\obj\Debug\net8.0\capaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\kmd\Documents\3P\capaEntidad\obj\Debug\net8.0\capaEntidad.dll
+C:\Users\kmd\Documents\3P\capaEntidad\obj\Debug\net8.0\refint\capaEntidad.dll
+C:\Users\kmd\Documents\3P\capaEntidad\obj\Debug\net8.0\capaEntidad.pdb
+C:\Users\kmd\Documents\3P\capaEntidad\obj\Debug\net8.0\ref\capaEntidad.dll
+C:\Users\David\Downloads\3P_completo\capaEntidad\bin\Debug\net8.0\capaEntidad.deps.json
+C:\Users\David\Downloads\3P_completo\capaEntidad\bin\Debug\net8.0\capaEntidad.dll
+C:\Users\David\Downloads\3P_completo\capaEntidad\bin\Debug\net8.0\capaEntidad.pdb
+C:\Users\David\Downloads\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David\Downloads\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.AssemblyInfoInputs.cache
+C:\Users\David\Downloads\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.AssemblyInfo.cs
+C:\Users\David\Downloads\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\David\Downloads\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.dll
+C:\Users\David\Downloads\3P_completo\capaEntidad\obj\Debug\net8.0\refint\capaEntidad.dll
+C:\Users\David\Downloads\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.pdb
+C:\Users\David\Downloads\3P_completo\capaEntidad\obj\Debug\net8.0\ref\capaEntidad.dll
+C:\Users\David\Downloads\3P_completo1\3P_completo\capaEntidad\bin\Debug\net8.0\capaEntidad.deps.json
+C:\Users\David\Downloads\3P_completo1\3P_completo\capaEntidad\bin\Debug\net8.0\capaEntidad.dll
+C:\Users\David\Downloads\3P_completo1\3P_completo\capaEntidad\bin\Debug\net8.0\capaEntidad.pdb
+C:\Users\David\Downloads\3P_completo1\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David\Downloads\3P_completo1\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.AssemblyInfoInputs.cache
+C:\Users\David\Downloads\3P_completo1\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.AssemblyInfo.cs
+C:\Users\David\Downloads\3P_completo1\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\David\Downloads\3P_completo1\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.dll
+C:\Users\David\Downloads\3P_completo1\3P_completo\capaEntidad\obj\Debug\net8.0\refint\capaEntidad.dll
+C:\Users\David\Downloads\3P_completo1\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.pdb
+C:\Users\David\Downloads\3P_completo1\3P_completo\capaEntidad\obj\Debug\net8.0\ref\capaEntidad.dll
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\capaEntidad\bin\Debug\net8.0\capaEntidad.deps.json
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\capaEntidad\bin\Debug\net8.0\capaEntidad.dll
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\capaEntidad\bin\Debug\net8.0\capaEntidad.pdb
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.AssemblyInfoInputs.cache
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.AssemblyInfo.cs
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.dll
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\capaEntidad\obj\Debug\net8.0\refint\capaEntidad.dll
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.pdb
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\capaEntidad\obj\Debug\net8.0\ref\capaEntidad.dll
