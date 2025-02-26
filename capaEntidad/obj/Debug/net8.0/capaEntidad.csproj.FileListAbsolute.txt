@@ -53,3 +53,15 @@ C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\capaEntidad\obj\Debug\net8.0
 C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\capaEntidad\obj\Debug\net8.0\refint\capaEntidad.dll
 C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\capaEntidad\obj\Debug\net8.0\capaEntidad.pdb
 C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\capaEntidad\obj\Debug\net8.0\ref\capaEntidad.dll
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\PrimeraAppNetCoreMVC\capaEntidad\bin\Debug\net8.0\capaEntidad.deps.json
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\PrimeraAppNetCoreMVC\capaEntidad\bin\Debug\net8.0\capaEntidad.dll
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\PrimeraAppNetCoreMVC\capaEntidad\bin\Debug\net8.0\capaEntidad.pdb
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\PrimeraAppNetCoreMVC\capaEntidad\obj\Debug\net8.0\capaEntidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\PrimeraAppNetCoreMVC\capaEntidad\obj\Debug\net8.0\capaEntidad.AssemblyInfoInputs.cache
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\PrimeraAppNetCoreMVC\capaEntidad\obj\Debug\net8.0\capaEntidad.AssemblyInfo.cs
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\PrimeraAppNetCoreMVC\capaEntidad\obj\Debug\net8.0\capaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\PrimeraAppNetCoreMVC\capaEntidad\obj\Debug\net8.0\capaEntidad.sourcelink.json
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\PrimeraAppNetCoreMVC\capaEntidad\obj\Debug\net8.0\capaEntidad.dll
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\PrimeraAppNetCoreMVC\capaEntidad\obj\Debug\net8.0\refint\capaEntidad.dll
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\PrimeraAppNetCoreMVC\capaEntidad\obj\Debug\net8.0\capaEntidad.pdb
+C:\Users\kmd\Downloads\3P_completo_hola\3P_completo\PrimeraAppNetCoreMVC\capaEntidad\obj\Debug\net8.0\ref\capaEntidad.dll

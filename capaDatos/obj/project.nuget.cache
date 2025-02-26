@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BjChs5TovwQ=",
+  "dgSpecHash": "HGADnm3b3dQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kmd\\Downloads\\3P_completo_hola\\3P_completo\\capaDatos\\capaDatos.csproj",
+  "projectFilePath": "C:\\Users\\kmd\\Downloads\\3P_completo_hola\\3P_completo\\PrimeraAppNetCoreMVC\\capaDatos\\capaDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kmd\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.1\\microsoft.extensions.configuration.9.0.1.nupkg.sha512",
     "C:\\Users\\kmd\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.1\\microsoft.extensions.configuration.abstractions.9.0.1.nupkg.sha512",
