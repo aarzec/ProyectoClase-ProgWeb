@@ -158,5 +158,30 @@ namespace capaDatos
             }
             return oTipoMedicamentoCLS;
         }
+
+        public int EliminarTipoMedicamento(int idTipoMedicamento)
+        {
+            int rpta = 0;
+            using (SqlConnection cn = new SqlConnection(ConexionBD.getCadenaConexion()))
+            {
+                try
+                {
+                    cn.Open();
+                    Console.WriteLine("Conexión a la base de datos establecida en DAL.");
+                    using (SqlCommand cmd = new SqlCommand("uspEliminarTipoMedicamento", cn))
+                    {
+                        cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@idTipoMedicamento", idTipoMedicamento);
+                        rpta = cmd.ExecuteNonQuery();
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error en DAL: {ex.Message}");
+                    cn.Close();
+                }
+            }
+            return rpta;
+        }
     }
 }

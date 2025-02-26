@@ -65,5 +65,12 @@ function Editar(id) {
 }
 
 function Eliminar(id) {
-    alert("Eliminar " + id);
+    const deleteAns = confirm("¿De verdad quiere eliminar este registro?");
+    if (!deleteAns) return;
+
+    fetchDelete("TipoMedicamento/EliminarTipoMedicamento/?idTipoMedicamento=" + id, "text", (res) => {
+        if (parseInt(res) == 1) {
+            listarTipoMedicamento();
+        }
+    });
 }

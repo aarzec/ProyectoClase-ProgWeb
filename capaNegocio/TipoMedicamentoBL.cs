@@ -29,5 +29,11 @@ namespace capaNegocio
             TipoMedicamentoDAL obj = new TipoMedicamentoDAL();
             return obj.RecuperarTipoMedicamento(idTipoMedicamento);
         }
+
+        public int EliminarTipoMedicamento(int idTipoMedicamento)
+        {
+            TipoMedicamentoDAL obj = new TipoMedicamentoDAL();
+            return obj.EliminarTipoMedicamento(idTipoMedicamento);
+        }
     }
 }

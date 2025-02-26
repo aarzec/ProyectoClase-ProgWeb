@@ -80,6 +80,29 @@ async function fetchPut(url, tipoRespuesta, frm, callback) {
     }
 }
 
+async function fetchDelete(url, tipoRespuesta, callback) {
+    try {
+        let raiz = document.getElementById("hdfOculto").value;
+        //http://localhost
+        let urlCompleta = window.location.protocol + "//" + window.location.host + "/" + raiz + url;
+        let res = await fetch(urlCompleta, {
+            method: "DELETE",
+        })
+        if (tipoRespuesta == "json") {
+            res = await res.json();
+        }
+        else if (tipoRespuesta == "text") {
+            res = await res.text();
+        }
+        //JSON (object)
+        console.log("Datos recibidos del backend:", res);
+        callback(res);
+    } catch (e) {
+        console.error(e)
+        alert("Ocurrió un problema");
+    }
+}
+
 let objConfiguracionGlobal;
 
 //(url:"", nombreColumnas[], nombrePropiedades: [])
