@@ -12,7 +12,8 @@ let objTipoMedicamento = {
     propiedades: ["idTipoMedicamento", "nombre", "descripcion"],
     eliminar: false,
     editar: false,
-    propiedadId: "idTipoMedicamento",
+    propiedadId: "idTipoMedicamento", 
+    propiedadNombre: "nombre",
 };
 
 async function listarTipoMedicamento() {
@@ -76,8 +77,8 @@ async function Editar(id) {
     modalTipoMedicamento.show();
 }
 
-async function Eliminar(id) {
-    if (!await Confirmacion()) return;
+async function Eliminar(id, nombre) {
+    if (!await Confirmacion("Está seguro que quiere eliminar el registro '" + nombre + "'?")) return;
     modalTipoMedicamento.hide();
 
     fetchDelete("TipoMedicamento/EliminarTipoMedicamento/?idTipoMedicamento=" + id, "text", (res) => {

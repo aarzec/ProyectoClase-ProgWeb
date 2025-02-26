@@ -205,6 +205,7 @@ function generarTabla(res) {
             contenido += "<td>";
 
             const objId = obj[objConfiguracionGlobal.propiedadId];
+            const objNombre = objConfiguracionGlobal.propiedadNombre ? obj[objConfiguracionGlobal.propiedadNombre] : "";
 
             if (objConfiguracionGlobal.editar) {
                 contenido += `
@@ -220,7 +221,7 @@ function generarTabla(res) {
 
             if (objConfiguracionGlobal.eliminar) {
                 contenido += `
-                <button class="btn btn-danger" onclick="Eliminar(${objId})">
+                <button class="btn btn-danger" onclick="Eliminar(${objId}, '${objNombre}')">
                     <i class="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
                         <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0"/>
@@ -260,10 +261,10 @@ function recuperarGenerico(url, idFormulario) {
     });
 }
 
-async function Confirmacion() {
+async function Confirmacion(msg = "¿Está seguro que desea relizar la acción?") {
     const swalRes = await Swal.fire({
         title: "Confirmación",
-        text: "¿Está seguro que desea relizar la acción?",
+        text: msg,
         icon: "warning",
         showCancelButton: true,
         confirmButtonColor: "#3085d6",
