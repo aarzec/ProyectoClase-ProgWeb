@@ -165,7 +165,7 @@ function generarTabla(res) {
     //propiedades: ["idMedicamento", "nombre", "descripcion"]
     let nombrePropiedades = objConfiguracionGlobal.propiedades;
 
-    contenido = '<table class="table">';
+    contenido = '<table class="table table-light table-hover p-2">';
     contenido += "<thead>"
 
     /* Primera fila de la tabla con los headers */

@@ -22,5 +22,10 @@ body {
 }
 
 h1, h2, h3 {
-    margin: 1rem, 0;
+    margin: 1.3rem 0;
+}
+
+#divContenedorTabla {
+    background-color: #f8f9fa;
+    padding: 0.5rem;
 }
