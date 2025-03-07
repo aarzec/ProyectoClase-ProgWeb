@@ -58,6 +58,7 @@ async function guardarTipoMedicamento() {
         fetchPut("TipoMedicamento/GuardarTipoMedicamento", "text", frmGuardar, callback);
     } else {
         fetchPost("TipoMedicamento/GuardarTipoMedicamento", "text", frmGuardar, callback);
+        modalTipoMedicamento.hide();
     }
 }
 

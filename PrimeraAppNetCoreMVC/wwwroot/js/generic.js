@@ -119,6 +119,7 @@ function pintar(objConfiguracion, idTabla = "divtabla") {
         contenido += "</div>";
 
         document.getElementById(idTabla).innerHTML = contenido;
+        new DataTable('#dtTable');
     })
 }
 
@@ -165,7 +166,7 @@ function generarTabla(res) {
     //propiedades: ["idMedicamento", "nombre", "descripcion"]
     let nombrePropiedades = objConfiguracionGlobal.propiedades;
 
-    contenido = '<table class="table table-light table-hover p-2">';
+    contenido = '<table class="table table-light table-hover p-2" id="dtTable">';
     contenido += "<thead>"
 
     /* Primera fila de la tabla con los headers */
